@@ -1,5 +1,12 @@
 header {
-	background-color: #5b7989
+	background-color: #5b7989;
+
+
+}
+header h1{
+	text-align:left;
+	color:white;
+  text-shadow: 2px 2px #02010a;
 }
 
 body {
@@ -9,9 +16,7 @@ body {
 	font-family: Raleway;
 }
 
-header h1{
-	text-align: center;
-}
+
 
 #contenido {
 	display: flex;
