@@ -1,18 +1,18 @@
 header {
-
 	background-color: #5b7989;
 	border-radius: 10px 10px 0px 0px;
 }
+
 header h1{
 	text-align:left;
 	color:white;
 	text-shadow: 2px 2px #02010a;
 }
+
 #menu > a{
 	color: white;
 }
 #menu > #inicio{
-	color: white;
 	text-decoration: none;
 }
 
@@ -24,10 +24,12 @@ header h1{
 		float: right;
 	}
 }
+
 #contenido{
 	background-color: #82c3a6;
 	align-items: center;
-
+	display: flex;
+	flex-direction: column;
 }
 
 body {
@@ -36,15 +38,34 @@ body {
 	color: white;
 	font-family: Raleway;
 }
-#contenido {
-	display: flex;
-	flex-direction: column;
+
+#contenido2{
+	background-color: #d5c75f;
+
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#contenedor2{
+
+}
+#imagen2 > img:hover{
+	-webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
+	filter: grayscale(70%);
+
+}
+#contenido2 > div > div > img{
+	text-align:right;
+}
+#contenedor2 img{
+	text-align: right;
 }
 
-#contenido > h1 {
-	padding: 10px;
-	text-align: center;
-}
+
+
+
+
 
 footer {
 	margin-top: 10px;
