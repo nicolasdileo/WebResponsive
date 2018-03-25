@@ -37,35 +37,35 @@ body {
 	background-color: black;
 	color: white;
 	font-family: Raleway;
+	text-align: center;
 }
 
 #contenido2{
 	background-color: #d5c75f;
-
+	border: 1px;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-#contenedor2{
+	margin 20px;
+	padding: 10px;
 
 }
+#contenido2 > div{
+	margin: 20px;
+}
 #imagen2 > img:hover{
+  transform:rotate(10deg);
+  -webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
+	filter: grayscale(70%);
+
+}
+
+#imagen3 > img:hover{
 	-webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
 	filter: grayscale(70%);
 
 }
-#contenido2 > div > div > img{
-	text-align:right;
-}
-#contenedor2 img{
-	text-align: right;
-}
-
-
-
-
-
 
 footer {
 	margin-top: 10px;
@@ -91,18 +91,18 @@ img{
 }
 
 #imagen1 img{
-	-webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
-	filter: grayscale(70%);
+/*	-webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
+/*	filter: grayscale(70%); */
 }
 
 #imagen2 img{
-	-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
-	filter: blur(5px);
+/*	-webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+/*	filter: blur(5px); */
 }
 
 #imagen3 img{
-	-webkit-filter: invert(50%); /* Chrome, Safari, Opera */
-	filter: invert(50%);
+/*	-webkit-filter: invert(50%); /* Chrome, Safari, Opera */
+/*	filter: invert(50%);*/
 }
 
 #imagen4 img{
