@@ -4,6 +4,7 @@ header {
 }
 
 header h1{
+
 	text-align:left;
 	color:white;
 	text-shadow: 2px 2px #02010a;
@@ -18,11 +19,19 @@ header h1{
 
 @media (min-width:900px)
 {
-	#menu{
+	.contenedorheader{
+		width: 50%
+		text-align:left;
+		}
+	.tituloindice{
+		width: 50%
+		text-align:right;
+		}
+		/*	#menu{
 		margin-top: 10px;
 		margin-right: 10px;
 		float: right;
-	}
+	}*/
 }
 
 #contenido{
@@ -47,7 +56,6 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin 20px;
 	padding: 10px;
 
 }
@@ -68,17 +76,38 @@ transition-duration: 3s;
 		border: 2px ;
 }
 
-img {
-
-border-image:
-
-}
 
 footer {
-	margin-top: 10px;
-	padding-top: 10px;
+	border-radius: 0px 0px 10px 10px;
+	background-color: #5b5589;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	text-align: center;
 }
+footer > div{
+
+		margin: 20px;
+}
+@media (max-width:900px)
+{
+#contenido2{
+	display: flex;
+		
+	}
+
+.contenedor2{
+		order: 2;
+	}
+.contenedor3{
+		order: 1;
+	}
+	footer{
+		flex-direction: column;
+
+	}
+}
+
 
 .contenedor {
 	display: flex;
