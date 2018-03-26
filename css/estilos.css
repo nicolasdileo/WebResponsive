@@ -42,7 +42,7 @@ body {
 
 #contenido2{
 	background-color: #d5c75f;
-	border: 1px;
+	border: 1px ;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -56,14 +56,21 @@ body {
 }
 #imagen2 > img:hover{
   transform:rotate(10deg);
-  -webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
-	filter: grayscale(70%);
-
+	transition-duration: 3s;
+		-webkit-box-shadow: 2px 2px 5px #82c3a6;
+		border: 2px ;
 }
 
 #imagen3 > img:hover{
-	-webkit-filter: grayscale(70%); /* Chrome, Safari, Opera */
-	filter: grayscale(70%);
+transform: translate3d(20px,-5px,00px);
+transition-duration: 3s;
+	-webkit-box-shadow: 2px 2px 5px #82c3a6;
+		border: 2px ;
+}
+
+img {
+
+border-image:
 
 }
 
@@ -79,7 +86,6 @@ footer {
 }
 
 img{
-	border: 2px solid white;
 	width: 200px;
 }
 
